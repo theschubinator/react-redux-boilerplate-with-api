@@ -1,0 +1,16 @@
+type: object
+description: The data for the current user
+required:
+  - id
+  - firstName
+  - lastName
+properties:
+  id:
+    type: string
+    description: Unique Id for the user as set by the database
+  firstName:
+    type: string
+    description: The current user's first name
+  lastName:
+    type: string
+    description: The current user's last name

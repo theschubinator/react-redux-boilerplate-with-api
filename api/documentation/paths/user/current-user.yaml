@@ -1,0 +1,9 @@
+get:
+  description: user
+  tags:
+    - User
+  responses:
+    '200':
+      description: The data pertaining to the current logged in user
+      schema:
+        $ref: '../../definitions/user/current-user.yaml'

@@ -1,0 +1,11 @@
+swagger: '2.0'
+info:
+  title: 'My Classroom Api'
+  description: 'The Official API for My Classroom Application'
+  version: '1.0'
+basePath: /
+paths:
+  $ref: './paths/index.yaml'
+tags:
+  - name: User
+    description: Everything about an User
