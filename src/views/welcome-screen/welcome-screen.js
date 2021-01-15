@@ -13,7 +13,7 @@ export const WelcomeScreen = (props) => {
 
 WelcomeScreen.propTypes = {
     user: PropTypes.shape({
-        id: PropTypes.number.isRequired,
+        id: PropTypes.string.isRequired,
         firstName: PropTypes.string.isRequired,
         lastName: PropTypes.string.isRequired
     }).isRequired

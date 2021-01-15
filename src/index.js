@@ -11,7 +11,9 @@ import {
 import {Provider} from 'react-redux'
 import reportWebVitals from './reportWebVitals';
 import { UserProviderConnector } from './views/user/user-provider-connector';
-import { WelcomeScreenConnector } from './views/welcome-screen/welcome-screen-connector';
+import {BrowserRouter} from 'react-router-dom';
+import { Routes } from './routes';
+
 
 // This sets up the Redux DevTools in the Chrome Browser
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
@@ -24,9 +26,11 @@ const store = createStore(
 ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
+      <BrowserRouter>
         <UserProviderConnector>
-          <WelcomeScreenConnector/>
+          <Routes/>
         </UserProviderConnector>
+      </BrowserRouter>
     </React.StrictMode>
   </Provider>,
   document.getElementById('root')

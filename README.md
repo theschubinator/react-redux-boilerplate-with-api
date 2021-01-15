@@ -4,7 +4,9 @@
 
 2. In addition, the application is preconfigured with an [OpenApi](https://swagger.io/docs/specification/2-0/basic-structure/) *(formely called Swagger 2.0)* server for mocking api calls.
 
-3. The React application was initilized with the help of [create-react-app](https://create-react-app.dev/ "Create-React-App").
+3. Although React is a single page application. This application intigrates [React Router](https://reactrouter.com/web/guides/quick-start) for rendering different components based on a particular route.
+
+4. The React application was initilized with the help of [create-react-app](https://create-react-app.dev/ "Create-React-App").
 
 ## OpenApi Mock Server
 
