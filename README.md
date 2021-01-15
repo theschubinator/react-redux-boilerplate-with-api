@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. This application is a basic boilerplate setup with an existing [React](https://reactjs.org/docs/getting-started.html) with [Redux](https://redux.js.org/) application.
+
+2. In addition, the application is preconfigured with an [OpenApi](https://swagger.io/docs/specification/2-0/basic-structure/) *(formely called Swagger 2.0)* server for mocking api calls.
+
+3. The React application was initilized with the help of [create-react-app](https://create-react-app.dev/ "Create-React-App").
+
+## OpenApi Mock Server
+
+ 1. [Documenation](https://github.com/theschubinator/react-redux-boilerplate-with-api/tree/main/api/documentation) - This is where you will define the [path](https://github.com/theschubinator/react-redux-boilerplate-with-api/tree/main/api/documentation/paths) as well as the [definitions](https://github.com/theschubinator/react-redux-boilerplate-with-api/tree/main/api/documentation/definitions/user) for each endpoint within your api.
+ 2. [Handlers](https://github.com/theschubinator/react-redux-boilerplate-with-api/tree/main/api/handlers) - This is where you will set the actual response that each endpoint within your api will send to your React applicaiton.
+    - *Note that the directory path _MUST_ match your api path exactly in order for the server to find the correct response*
 
 ## Available Scripts
 
@@ -8,8 +18,10 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This will start a local server for both the OpenApi as well as the React Application.
+
+The React Application will start on [http://localhost:3000].
+The OpenApi will start on [http://localhost:8000].
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
@@ -38,33 +50,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
