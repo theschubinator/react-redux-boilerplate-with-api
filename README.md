@@ -20,8 +20,9 @@ In the project directory, you can run:
 
 This will start a local server for both the OpenApi as well as the React Application.
 
-The React Application will start on [http://localhost:3000].
-The OpenApi will start on [http://localhost:8000].
+The React Application will start on <http://localhost:3000>.
+
+The OpenApi will start on <http://localhost:8000>.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
