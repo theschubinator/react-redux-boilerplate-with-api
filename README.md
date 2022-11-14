@@ -1,5 +1,9 @@
 # Getting Started
 
+
+
+
+
 1. This application is a basic boilerplate setup with an existing [React](https://reactjs.org/docs/getting-started.html) with [Redux](https://redux.js.org/) application.
 
 2. In addition, the application is preconfigured with an [OpenApi](https://swagger.io/docs/specification/2-0/basic-structure/) *(formely called Swagger 2.0)* server for mocking api calls.
